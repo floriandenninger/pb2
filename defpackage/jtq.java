@@ -1,0 +1,294 @@
+package defpackage;
+
+import android.content.Context;
+import android.text.format.DateFormat;
+import com.google.android.youtube.R;
+import com.google.protos.youtube.api.innertube.ShowNoConnectionBarCommandOuterClass$ShowNoConnectionBarCommand;
+import com.google.protos.youtube.api.innertube.SlimVideoMetadataRendererOuterClass;
+import com.google.protos.youtube.api.innertube.SlimVideoMetadataSectionRendererOuterClass;
+import java.util.Date;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class jtq extends jsn {
+    private final Context a;
+
+    public jtq(Context context) {
+        super(agnp.class, auwd.class);
+        this.a = context;
+    }
+
+    private static auvo a(arfr arfrVar, String str) {
+        aong aongVar = (aong) apmg.a.createBuilder();
+        aqyg g = ajcq.g(str);
+        aongVar.copyOnWrite();
+        apmg apmgVar = (apmg) aongVar.instance;
+        g.getClass();
+        apmgVar.i = g;
+        apmgVar.b |= 256;
+        aong aongVar2 = (aong) arfs.a.createBuilder();
+        aongVar2.copyOnWrite();
+        arfs arfsVar = (arfs) aongVar2.instance;
+        arfsVar.c = arfrVar.pV;
+        arfsVar.b |= 1;
+        aongVar.copyOnWrite();
+        apmg apmgVar2 = (apmg) aongVar.instance;
+        arfs arfsVar2 = (arfs) aongVar2.build();
+        arfsVar2.getClass();
+        apmgVar2.g = arfsVar2;
+        apmgVar2.b |= 32;
+        g(aongVar);
+        aone createBuilder = auvo.a.createBuilder();
+        aone createBuilder2 = apmh.a.createBuilder();
+        createBuilder2.copyOnWrite();
+        apmh apmhVar = (apmh) createBuilder2.instance;
+        apmg apmgVar3 = (apmg) aongVar.build();
+        apmgVar3.getClass();
+        apmhVar.c = apmgVar3;
+        apmhVar.b |= 1;
+        createBuilder.copyOnWrite();
+        auvo auvoVar = (auvo) createBuilder.instance;
+        apmh apmhVar2 = (apmh) createBuilder2.build();
+        apmhVar2.getClass();
+        auvoVar.f = apmhVar2;
+        auvoVar.b |= 8;
+        return (auvo) createBuilder.build();
+    }
+
+    private static auvp f(auvo auvoVar) {
+        aone createBuilder = auvp.a.createBuilder();
+        createBuilder.copyOnWrite();
+        auvp auvpVar = (auvp) createBuilder.instance;
+        auvoVar.getClass();
+        auvpVar.c = auvoVar;
+        auvpVar.b = 124608017;
+        return (auvp) createBuilder.build();
+    }
+
+    private static void g(aong aongVar) {
+        aone createBuilder = avfc.a.createBuilder();
+        avez avezVar = avez.THEME_ATTRIBUTE_ICON_DISABLED;
+        createBuilder.copyOnWrite();
+        avfc avfcVar = (avfc) createBuilder.instance;
+        avfcVar.d = avezVar.aj;
+        avfcVar.b |= 2;
+        avez avezVar2 = avez.THEME_ATTRIBUTE_TEXT_DISABLED;
+        createBuilder.copyOnWrite();
+        avfc avfcVar2 = (avfc) createBuilder.instance;
+        avfcVar2.c = avezVar2.aj;
+        avfcVar2.b |= 1;
+        aongVar.copyOnWrite();
+        apmg apmgVar = (apmg) aongVar.instance;
+        avfc avfcVar3 = (avfc) createBuilder.build();
+        apmg apmgVar2 = apmg.a;
+        avfcVar3.getClass();
+        apmgVar.d = avfcVar3;
+        apmgVar.c = 20;
+        aong aongVar2 = (aong) apxf.a.createBuilder();
+        aongVar2.e(ShowNoConnectionBarCommandOuterClass$ShowNoConnectionBarCommand.showNoConnectionBarCommand, ShowNoConnectionBarCommandOuterClass$ShowNoConnectionBarCommand.a);
+        aongVar.copyOnWrite();
+        apmg apmgVar3 = (apmg) aongVar.instance;
+        apxf apxfVar = (apxf) aongVar2.build();
+        apxfVar.getClass();
+        apmgVar3.n = apxfVar;
+        apmgVar3.b |= 8192;
+    }
+
+    @Override // defpackage.jtc
+    public final /* bridge */ /* synthetic */ Object b(Object obj, amrz amrzVar) {
+        agnp agnpVar = (agnp) obj;
+        aong aongVar = (aong) auwd.a.createBuilder();
+        String f = agnpVar.f();
+        aongVar.copyOnWrite();
+        auwd auwdVar = (auwd) aongVar.instance;
+        f.getClass();
+        auwdVar.b |= 1;
+        auwdVar.d = f;
+        String string = this.a.getString(R.string.video_views, Long.valueOf(agnpVar.b()));
+        aong aongVar2 = (aong) aulq.a.createBuilder();
+        aonk aonkVar = SlimVideoMetadataSectionRendererOuterClass.slimVideoInformationRenderer;
+        aone createBuilder = auwc.a.createBuilder();
+        aqyg g = ajcq.g(agnpVar.j());
+        createBuilder.copyOnWrite();
+        auwc auwcVar = (auwc) createBuilder.instance;
+        g.getClass();
+        auwcVar.c = g;
+        auwcVar.b |= 1;
+        aqyg g2 = ajcq.g(string);
+        createBuilder.copyOnWrite();
+        auwc auwcVar2 = (auwc) createBuilder.instance;
+        g2.getClass();
+        auwcVar2.d = g2;
+        auwcVar2.b |= 2;
+        aqyg g3 = ajcq.g(string);
+        createBuilder.copyOnWrite();
+        auwc auwcVar3 = (auwc) createBuilder.instance;
+        g3.getClass();
+        auwcVar3.e = g3;
+        auwcVar3.b |= 4;
+        aongVar2.e(aonkVar, (auwc) createBuilder.build());
+        aongVar.cs((aulq) aongVar2.build());
+        Context context = this.a;
+        aone createBuilder2 = auvz.a.createBuilder();
+        createBuilder2.aS(f(a(arfr.LIKE, agnpVar.h())));
+        createBuilder2.aS(f(a(arfr.DISLIKE, agnpVar.e())));
+        aong aongVar3 = (aong) apmg.a.createBuilder();
+        aong aongVar4 = (aong) arfs.a.createBuilder();
+        arfr arfrVar = arfr.SHARE_ARROW;
+        aongVar4.copyOnWrite();
+        arfs arfsVar = (arfs) aongVar4.instance;
+        arfsVar.c = arfrVar.pV;
+        arfsVar.b |= 1;
+        aongVar3.copyOnWrite();
+        apmg apmgVar = (apmg) aongVar3.instance;
+        arfs arfsVar2 = (arfs) aongVar4.build();
+        arfsVar2.getClass();
+        apmgVar.g = arfsVar2;
+        apmgVar.b |= 32;
+        aqyg g4 = ajcq.g(context.getString(R.string.offline_share_button_text));
+        aongVar3.copyOnWrite();
+        apmg apmgVar2 = (apmg) aongVar3.instance;
+        g4.getClass();
+        apmgVar2.i = g4;
+        apmgVar2.b |= 256;
+        g(aongVar3);
+        aone createBuilder3 = auvo.a.createBuilder();
+        aone createBuilder4 = apmh.a.createBuilder();
+        createBuilder4.copyOnWrite();
+        apmh apmhVar = (apmh) createBuilder4.instance;
+        apmg apmgVar3 = (apmg) aongVar3.build();
+        apmgVar3.getClass();
+        apmhVar.c = apmgVar3;
+        apmhVar.b |= 1;
+        createBuilder3.copyOnWrite();
+        auvo auvoVar = (auvo) createBuilder3.instance;
+        apmh apmhVar2 = (apmh) createBuilder4.build();
+        apmhVar2.getClass();
+        auvoVar.f = apmhVar2;
+        auvoVar.b |= 8;
+        createBuilder2.aS(f((auvo) createBuilder3.build()));
+        aone createBuilder5 = auvo.a.createBuilder();
+        aone createBuilder6 = apmh.a.createBuilder();
+        apmg apmgVar4 = apmg.a;
+        createBuilder6.copyOnWrite();
+        apmh apmhVar3 = (apmh) createBuilder6.instance;
+        apmgVar4.getClass();
+        apmhVar3.c = apmgVar4;
+        apmhVar3.b |= 1;
+        createBuilder5.copyOnWrite();
+        auvo auvoVar2 = (auvo) createBuilder5.instance;
+        apmh apmhVar4 = (apmh) createBuilder6.build();
+        apmhVar4.getClass();
+        auvoVar2.f = apmhVar4;
+        auvoVar2.b |= 8;
+        createBuilder5.copyOnWrite();
+        auvo.a((auvo) createBuilder5.instance);
+        aqyg g5 = ajcq.g(context.getString(R.string.offline_button_progress_text));
+        createBuilder5.copyOnWrite();
+        auvo auvoVar3 = (auvo) createBuilder5.instance;
+        g5.getClass();
+        auvoVar3.d = g5;
+        auvoVar3.b |= 2;
+        aqyg g6 = ajcq.g(context.getString(R.string.offline_button_complete_text));
+        createBuilder5.copyOnWrite();
+        auvo auvoVar4 = (auvo) createBuilder5.instance;
+        g6.getClass();
+        auvoVar4.e = g6;
+        auvoVar4.b |= 4;
+        createBuilder2.aS(f((auvo) createBuilder5.build()));
+        aong aongVar5 = (aong) apmg.a.createBuilder();
+        aong aongVar6 = (aong) arfs.a.createBuilder();
+        arfr arfrVar2 = arfr.ADD_TO_PLAYLIST;
+        aongVar6.copyOnWrite();
+        arfs arfsVar3 = (arfs) aongVar6.instance;
+        arfsVar3.c = arfrVar2.pV;
+        arfsVar3.b |= 1;
+        aongVar5.copyOnWrite();
+        apmg apmgVar5 = (apmg) aongVar5.instance;
+        arfs arfsVar4 = (arfs) aongVar6.build();
+        arfsVar4.getClass();
+        apmgVar5.g = arfsVar4;
+        apmgVar5.b |= 32;
+        aqyg g7 = ajcq.g(context.getString(R.string.offline_save_button_text));
+        aongVar5.copyOnWrite();
+        apmg apmgVar6 = (apmg) aongVar5.instance;
+        g7.getClass();
+        apmgVar6.i = g7;
+        apmgVar6.b |= 256;
+        g(aongVar5);
+        aone createBuilder7 = auvo.a.createBuilder();
+        aone createBuilder8 = apmh.a.createBuilder();
+        createBuilder8.copyOnWrite();
+        apmh apmhVar5 = (apmh) createBuilder8.instance;
+        apmg apmgVar7 = (apmg) aongVar5.build();
+        apmgVar7.getClass();
+        apmhVar5.c = apmgVar7;
+        apmhVar5.b |= 1;
+        createBuilder7.copyOnWrite();
+        auvo auvoVar5 = (auvo) createBuilder7.instance;
+        apmh apmhVar6 = (apmh) createBuilder8.build();
+        apmhVar6.getClass();
+        auvoVar5.f = apmhVar6;
+        auvoVar5.b |= 8;
+        createBuilder2.aS(f((auvo) createBuilder7.build()));
+        aong aongVar7 = (aong) aulq.a.createBuilder();
+        aongVar7.e(SlimVideoMetadataSectionRendererOuterClass.slimVideoActionBarRenderer, (auvz) createBuilder2.build());
+        aongVar.cs((aulq) aongVar7.build());
+        aone createBuilder9 = auvs.a.createBuilder();
+        agnb agnbVar = agnpVar.a;
+        if (agnbVar != null) {
+            aqyg g8 = ajcq.g(agnbVar.b);
+            createBuilder9.copyOnWrite();
+            auvs auvsVar = (auvs) createBuilder9.instance;
+            g8.getClass();
+            auvsVar.d = g8;
+            auvsVar.b |= 2;
+            avgg e = agnbVar.c.e();
+            createBuilder9.copyOnWrite();
+            auvs auvsVar2 = (auvs) createBuilder9.instance;
+            e.getClass();
+            auvsVar2.c = e;
+            auvsVar2.b |= 1;
+        }
+        aong aongVar8 = (aong) aulq.a.createBuilder();
+        aongVar8.e(SlimVideoMetadataRendererOuterClass.slimOwnerRenderer, (auvs) createBuilder9.build());
+        aongVar.cs((aulq) aongVar8.build());
+        Context context2 = this.a;
+        aong aongVar9 = (aong) aqyg.a.createBuilder();
+        Date date = agnpVar.d;
+        aong aongVar10 = (aong) aqyi.a.createBuilder();
+        aongVar10.copyOnWrite();
+        aqyi.a((aqyi) aongVar10.instance);
+        String format = DateFormat.getLongDateFormat(context2).format(agnpVar.d);
+        aongVar10.copyOnWrite();
+        aqyi aqyiVar = (aqyi) aongVar10.instance;
+        format.getClass();
+        aqyiVar.b |= 1;
+        aqyiVar.c = format;
+        aongVar9.cw(aongVar10);
+        aone createBuilder10 = auwa.a.createBuilder();
+        createBuilder10.copyOnWrite();
+        auwa auwaVar = (auwa) createBuilder10.instance;
+        aqyg aqygVar = (aqyg) aongVar9.build();
+        aqygVar.getClass();
+        auwaVar.c = aqygVar;
+        auwaVar.b |= 1;
+        atqx atqxVar = agnpVar.e;
+        if ((atqxVar.b & 512) != 0) {
+            aqyg aqygVar2 = atqxVar.k;
+            if (aqygVar2 == null) {
+                aqygVar2 = aqyg.a;
+            }
+            createBuilder10.copyOnWrite();
+            auwa auwaVar2 = (auwa) createBuilder10.instance;
+            aqygVar2.getClass();
+            auwaVar2.d = aqygVar2;
+            auwaVar2.b |= 2;
+        }
+        aong aongVar11 = (aong) aulq.a.createBuilder();
+        aongVar11.e(SlimVideoMetadataSectionRendererOuterClass.slimVideoDescriptionRenderer, (auwa) createBuilder10.build());
+        aongVar.cs((aulq) aongVar11.build());
+        aongVar.e(auvx.b, true);
+        return (auwd) aongVar.build();
+    }
+}

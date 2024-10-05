@@ -1,0 +1,260 @@
+package com.google.android.libraries.youtube.player.stats;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.libraries.youtube.innertube.model.player.TrackingUrlModel;
+import defpackage.aigo;
+import defpackage.zhq;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class VideoStats2Client$VideoStats2ClientState implements Parcelable {
+    public static final Parcelable.Creator CREATOR = new aigo(9);
+    public final String A;
+    public final float B;
+    public final int C;
+    public final int[] D;
+    public final int E;
+    public final String F;
+    public final boolean G;
+    public final boolean H;
+    public final TrackingUrlModel a;
+    public final TrackingUrlModel b;
+    public final TrackingUrlModel c;
+    public final boolean d;
+    public final long e;
+    public final long f;
+    public final long g;
+    public final String h;
+    public final String i;
+    public final String j;
+    public final String k;
+    public final int l;
+    public final long m;
+    public final long n;
+    public final boolean o;
+    public final boolean p;
+    public final boolean q;
+    public final boolean r;
+    public final boolean s;
+    public final boolean t;
+    public final boolean u;
+    public final boolean v;
+    public final int w;
+    public final int x;
+    public final int y;
+    public final long z;
+
+    public VideoStats2Client$VideoStats2ClientState(Parcel parcel) {
+        ClassLoader classLoader = VideoStats2Client$VideoStats2ClientState.class.getClassLoader();
+        this.a = (TrackingUrlModel) parcel.readParcelable(classLoader);
+        this.b = (TrackingUrlModel) parcel.readParcelable(classLoader);
+        this.c = (TrackingUrlModel) parcel.readParcelable(classLoader);
+        this.e = parcel.readLong();
+        this.f = parcel.readLong();
+        this.g = parcel.readLong();
+        this.h = zhq.h(parcel.readString());
+        this.i = zhq.h(parcel.readString());
+        this.j = zhq.h(parcel.readString());
+        this.l = parcel.readInt();
+        this.m = parcel.readLong();
+        this.n = parcel.readLong();
+        this.o = parcel.readInt() == 1;
+        this.p = parcel.readInt() == 1;
+        this.q = parcel.readInt() == 1;
+        this.s = parcel.readInt() == 1;
+        this.r = parcel.readInt() == 1;
+        this.t = parcel.readInt() == 1;
+        this.u = parcel.readInt() == 1;
+        this.v = parcel.readInt() == 1;
+        this.w = parcel.readInt();
+        this.x = parcel.readInt();
+        this.A = zhq.h(parcel.readString());
+        this.k = parcel.readString();
+        this.C = parcel.readInt();
+        int[] createIntArray = parcel.createIntArray();
+        this.D = createIntArray == null ? new int[0] : createIntArray;
+        this.E = parcel.readInt();
+        this.F = parcel.readString();
+        this.B = parcel.readFloat();
+        this.y = parcel.readInt();
+        this.z = parcel.readLong();
+        this.G = parcel.readInt() == 1;
+        this.d = parcel.readInt() == 1;
+        this.H = parcel.readInt() == 1;
+    }
+
+    public VideoStats2Client$VideoStats2ClientState(TrackingUrlModel trackingUrlModel, TrackingUrlModel trackingUrlModel2, TrackingUrlModel trackingUrlModel3, boolean z, long j, long j2, long j3, String str, String str2, String str3, String str4, int i, long j4, long j5, boolean z2, boolean z3, boolean z4, boolean z5, boolean z6, boolean z7, boolean z8, boolean z9, int i2, int i3, String str5, float f, int i4, int[] iArr, int i5, String str6, int i6, long j6, boolean z10, boolean z11) {
+        this.a = trackingUrlModel;
+        this.b = trackingUrlModel2;
+        this.c = trackingUrlModel3;
+        this.d = z;
+        this.e = j;
+        this.f = j2;
+        this.g = j3;
+        this.h = str;
+        this.i = str2;
+        this.j = str3;
+        this.k = str4;
+        this.l = i;
+        this.m = j4;
+        this.n = j5;
+        this.o = z2;
+        this.p = z3;
+        this.q = z4;
+        this.s = z5;
+        this.r = z6;
+        this.t = z7;
+        this.u = z8;
+        this.v = z9;
+        this.w = i2;
+        this.x = i3;
+        this.A = str5;
+        this.B = f;
+        this.C = i4;
+        this.D = iArr;
+        this.E = i5;
+        this.F = str6 != null ? str6 : "";
+        this.y = i6;
+        this.z = j6;
+        this.G = z10;
+        this.H = z11;
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    public final String toString() {
+        String hexString = Integer.toHexString(System.identityHashCode(this));
+        String valueOf = String.valueOf(this.a.c());
+        String valueOf2 = String.valueOf(this.b.c());
+        String valueOf3 = String.valueOf(this.c.c());
+        long j = this.e;
+        long j2 = this.f;
+        long j3 = this.g;
+        String str = this.h;
+        String str2 = this.i;
+        String str3 = this.j;
+        int i = this.l;
+        long j4 = this.m;
+        boolean z = this.o;
+        boolean z2 = this.p;
+        boolean z3 = this.q;
+        boolean z4 = this.s;
+        boolean z5 = this.r;
+        boolean z6 = this.t;
+        int i2 = this.w;
+        int i3 = this.x;
+        String str4 = this.A;
+        float f = this.B;
+        String str5 = this.F;
+        if (str5 == null) {
+            str5 = "NULL";
+        }
+        boolean z7 = this.G;
+        boolean z8 = this.H;
+        boolean z9 = this.d;
+        int length = String.valueOf(hexString).length();
+        int length2 = String.valueOf(valueOf).length();
+        int length3 = String.valueOf(valueOf2).length();
+        int length4 = String.valueOf(valueOf3).length();
+        int length5 = String.valueOf(str).length();
+        int length6 = String.valueOf(str2).length();
+        int length7 = String.valueOf(str3).length();
+        StringBuilder sb = new StringBuilder(length + 598 + length2 + length3 + length4 + length5 + length6 + length7 + String.valueOf(str4).length() + str5.length());
+        sb.append("VideoStats2Client.VideoStats2ClientState{");
+        sb.append(hexString);
+        sb.append(" basePlaybackUri=");
+        sb.append(valueOf);
+        sb.append(" baseDelayplayUri=");
+        sb.append(valueOf2);
+        sb.append(" baseWatchtimeUri=");
+        sb.append(valueOf3);
+        sb.append(" sessionStartTimestamp=");
+        sb.append(j);
+        sb.append(" currentPlaybackPosition=");
+        sb.append(j2);
+        sb.append(" lengthMillis=");
+        sb.append(j3);
+        sb.append(" videoId=");
+        sb.append(str);
+        sb.append(" hostCpn=");
+        sb.append(str2);
+        sb.append(" cpn=");
+        sb.append(str3);
+        sb.append(" delay=");
+        sb.append(i);
+        sb.append(" watchTimeMillis=");
+        sb.append(j4);
+        sb.append(" autoplay=");
+        sb.append(z);
+        sb.append(" scriptedPlayback=");
+        sb.append(z2);
+        sb.append(" delayedPingSent=");
+        sb.append(z3);
+        sb.append(" finalPingSent=");
+        sb.append(z4);
+        sb.append(" initialPingSent=");
+        sb.append(z5);
+        sb.append(" throttled=");
+        sb.append(z6);
+        sb.append(" videoItag=");
+        sb.append(i2);
+        sb.append(" audioItag=");
+        sb.append(i3);
+        sb.append(" subtitleTrackId=");
+        sb.append(str4);
+        sb.append(" playbackRate=");
+        sb.append(f);
+        sb.append(" referringAppName=");
+        sb.append(str5);
+        sb.append(" isDoubleLoggingWatchtime");
+        sb.append(z7);
+        sb.append(" isSingleLoggingVss3Watchtime");
+        sb.append(z8);
+        sb.append(" isReuse");
+        sb.append(z9);
+        sb.append("}");
+        return sb.toString();
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeParcelable(this.a, 0);
+        parcel.writeParcelable(this.b, 0);
+        parcel.writeParcelable(this.c, 0);
+        parcel.writeLong(this.e);
+        parcel.writeLong(this.f);
+        parcel.writeLong(this.g);
+        parcel.writeString(this.h);
+        parcel.writeString(this.i);
+        parcel.writeString(this.j);
+        parcel.writeInt(this.l);
+        parcel.writeLong(this.m);
+        parcel.writeLong(this.n);
+        parcel.writeInt(this.o ? 1 : 0);
+        parcel.writeInt(this.p ? 1 : 0);
+        parcel.writeInt(this.q ? 1 : 0);
+        parcel.writeInt(this.s ? 1 : 0);
+        parcel.writeInt(this.r ? 1 : 0);
+        parcel.writeInt(this.t ? 1 : 0);
+        parcel.writeInt(this.u ? 1 : 0);
+        parcel.writeInt(this.v ? 1 : 0);
+        parcel.writeInt(this.w);
+        parcel.writeInt(this.x);
+        parcel.writeString(this.A);
+        parcel.writeString(this.k);
+        parcel.writeInt(this.C);
+        parcel.writeIntArray(this.D);
+        parcel.writeInt(this.E);
+        parcel.writeString(this.F);
+        parcel.writeFloat(this.B);
+        parcel.writeInt(this.y);
+        parcel.writeLong(this.z);
+        parcel.writeInt(this.G ? 1 : 0);
+        parcel.writeInt(this.d ? 1 : 0);
+        parcel.writeInt(this.H ? 1 : 0);
+    }
+}

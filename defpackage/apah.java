@@ -1,0 +1,204 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public enum apah implements aonq {
+    TRIGGER_TYPE_UNSPECIFIED(0),
+    TRIGGER_TYPE_ACTIVE_MEDIA_LAYOUT_ID(1),
+    TRIGGER_TYPE_MEDIA_TIME_RANGE(2),
+    TRIGGER_TYPE_SLOT_ID_SCHEDULED(3),
+    TRIGGER_TYPE_SLOT_ID_ENTERED(4),
+    TRIGGER_TYPE_CONTENT_VIDEO_ID_ENDED(5),
+    TRIGGER_TYPE_ON_NEW_PLAYBACK_AFTER_CONTENT_VIDEO_ID(6),
+    TRIGGER_TYPE_LAYOUT_ID_EXITED(7),
+    TRIGGER_TYPE_ON_SLOT_CANCELLATION_REQUESTED(8),
+    TRIGGER_TYPE_ON_LAYOUT_SELF_EXIT_REQUESTED(9),
+    TRIGGER_TYPE_SKIP_REQUESTED(10),
+    TRIGGER_TYPE_SLOT_ID_EXITED(11),
+    TRIGGER_TYPE_ON_SUBSEQUENT_ACTIVE_MEDIA_LAYOUT_ID_AFTER_PROVIDED_LAYOUT_TRIGGER(12),
+    TRIGGER_TYPE_CONTENT_VIDEO_ID_READY(13),
+    TRIGGER_TYPE_ON_LOADED_DIFFERENT_VIDEO_ID_THAN_EXPECTED(14),
+    TRIGGER_TYPE_LAYOUT_ID_ENTERED(15),
+    TRIGGER_TYPE_BEFORE_CONTENT_VIDEO_ID_STARTED(16),
+    TRIGGER_TYPE_ON_DIFFERENT_LAYOUT_ID_ENTERED(17),
+    TRIGGER_TYPE_ON_SLOT_SELF_ENTER_REQUESTED(18),
+    TRIGGER_TYPE_SLOT_ID_ENTER_REQUESTED(19),
+    TRIGGER_TYPE_LAYOUT_EXITED_FOR_REASON(20),
+    TRIGGER_TYPE_LIVE_STREAM_BREAK_STARTED(21),
+    TRIGGER_TYPE_SURVEY_SUBMITTED(22),
+    TRIGGER_TYPE_LIVE_STREAM_BREAK_ENDED(23),
+    TRIGGER_TYPE_LAYOUT_EXITED_FOR_OTHER_REASON(24),
+    TRIGGER_TYPE_CLOSE_REQUESTED(25),
+    TRIGGER_TYPE_TIME_RELATIVE_TO_LAYOUT_ENTER(26),
+    TRIGGER_TYPE_NOT_IN_MEDIA_TIME_RANGE(27),
+    TRIGGER_TYPE_SLOT_ID_FULFILLED_EMPTY(28),
+    TRIGGER_TYPE_SLOT_ID_FULFILLED_NON_EMPTY(29),
+    TRIGGER_TYPE_ON_OPPORTUNITY_TYPE_RECEIVED(30),
+    TRIGGER_TYPE_SLOT_TYPE_ENTER_REQUESTED(31),
+    TRIGGER_TYPE_LAYOUT_ID_ACTIVE_AND_SLOT_ID_HAS_EXITED(32),
+    TRIGGER_TYPE_PLAYBACK_MINIMIZED(33),
+    TRIGGER_TYPE_MEDIA_PAUSED(34),
+    TRIGGER_TYPE_MEDIA_RESUMED(35),
+    TRIGGER_TYPE_ON_DIFFERENT_SLOT_ID_ENTER_REQUESTED(36),
+    TRIGGER_TYPE_ON_ACTIVATE_EXTERNAL_PLAYBACK(37),
+    TRIGGER_TYPE_REEL_ITEM_SEQUENCE_ABANDONED(38),
+    TRIGGER_TYPE_ON_MEDIA_PLAYBACK_ERROR(39),
+    TRIGGER_TYPE_VISIT_ADVERTISER_LINK_CLICKED(40),
+    TRIGGER_TYPE_MEDIA_FULLSCREEN_ENTERED(41),
+    TRIGGER_TYPE_MEDIA_FULLSCREEN_EXITED(42),
+    TRIGGER_TYPE_MEDIA_NON_TERMINAL_ABANDONED(43),
+    TRIGGER_TYPE_ACTIVE_VIEW_VIEWABLE_CRITERIA_SATISFIED(44),
+    TRIGGER_TYPE_ACTIVE_VIEW_MEASURABLE_CRITERIA_SATISFIED(45),
+    TRIGGER_TYPE_ACTIVE_VIEW_GROUPM_VIEWABLE_CRITERIA_SATISFIED(46),
+    TRIGGER_TYPE_SEQUENCE_ITEM_IN_PLAYER_SPACE_AVAILABLE(47),
+    TRIGGER_TYPE_SEQUENCE_ITEM_IN_PLAYER_SPACE_UNAVAILABLE(48),
+    TRIGGER_TYPE_LAYOUT_ID_ENTERED_AND_SLOT_FULFILLED(49),
+    TRIGGER_TYPE_PROGRESS_PAST_MEDIA_TIME_WITH_OFFSET_RELATIVE_TO_LAYOUT_ENTER(50),
+    TRIGGER_TYPE_SEEK_FORWARD_PAST_MEDIA_TIME_WITH_OFFSET_RELATIVE_TO_LAYOUT_ENTER(51),
+    TRIGGER_TYPE_SEEK_BACKWARD_BEFORE_LAYOUT_ENTER_TIME(52),
+    TRIGGER_TYPE_MEDIA_TIME_RANGE_ALLOW_REACTIVATION_WITHIN_RANGE(53),
+    TRIGGER_TYPE_IN_MEDIA_TIME_RANGE_AND_SLOT_FULFILLED_NON_EMPTY(54),
+    TRIGGER_TYPE_SLOT_ID_UNSCHEDULED(55),
+    TRIGGER_TYPE_MEDIA_PLAYBACK_STARTED(56);
+
+    public final int af;
+
+    apah(int i) {
+        this.af = i;
+    }
+
+    public static aons a() {
+        return apaf.c;
+    }
+
+    public static apah b(int i) {
+        switch (i) {
+            case 0:
+                return TRIGGER_TYPE_UNSPECIFIED;
+            case 1:
+                return TRIGGER_TYPE_ACTIVE_MEDIA_LAYOUT_ID;
+            case 2:
+                return TRIGGER_TYPE_MEDIA_TIME_RANGE;
+            case 3:
+                return TRIGGER_TYPE_SLOT_ID_SCHEDULED;
+            case 4:
+                return TRIGGER_TYPE_SLOT_ID_ENTERED;
+            case 5:
+                return TRIGGER_TYPE_CONTENT_VIDEO_ID_ENDED;
+            case 6:
+                return TRIGGER_TYPE_ON_NEW_PLAYBACK_AFTER_CONTENT_VIDEO_ID;
+            case 7:
+                return TRIGGER_TYPE_LAYOUT_ID_EXITED;
+            case 8:
+                return TRIGGER_TYPE_ON_SLOT_CANCELLATION_REQUESTED;
+            case 9:
+                return TRIGGER_TYPE_ON_LAYOUT_SELF_EXIT_REQUESTED;
+            case 10:
+                return TRIGGER_TYPE_SKIP_REQUESTED;
+            case 11:
+                return TRIGGER_TYPE_SLOT_ID_EXITED;
+            case 12:
+                return TRIGGER_TYPE_ON_SUBSEQUENT_ACTIVE_MEDIA_LAYOUT_ID_AFTER_PROVIDED_LAYOUT_TRIGGER;
+            case 13:
+                return TRIGGER_TYPE_CONTENT_VIDEO_ID_READY;
+            case 14:
+                return TRIGGER_TYPE_ON_LOADED_DIFFERENT_VIDEO_ID_THAN_EXPECTED;
+            case 15:
+                return TRIGGER_TYPE_LAYOUT_ID_ENTERED;
+            case 16:
+                return TRIGGER_TYPE_BEFORE_CONTENT_VIDEO_ID_STARTED;
+            case 17:
+                return TRIGGER_TYPE_ON_DIFFERENT_LAYOUT_ID_ENTERED;
+            case 18:
+                return TRIGGER_TYPE_ON_SLOT_SELF_ENTER_REQUESTED;
+            case 19:
+                return TRIGGER_TYPE_SLOT_ID_ENTER_REQUESTED;
+            case 20:
+                return TRIGGER_TYPE_LAYOUT_EXITED_FOR_REASON;
+            case 21:
+                return TRIGGER_TYPE_LIVE_STREAM_BREAK_STARTED;
+            case 22:
+                return TRIGGER_TYPE_SURVEY_SUBMITTED;
+            case 23:
+                return TRIGGER_TYPE_LIVE_STREAM_BREAK_ENDED;
+            case 24:
+                return TRIGGER_TYPE_LAYOUT_EXITED_FOR_OTHER_REASON;
+            case 25:
+                return TRIGGER_TYPE_CLOSE_REQUESTED;
+            case 26:
+                return TRIGGER_TYPE_TIME_RELATIVE_TO_LAYOUT_ENTER;
+            case 27:
+                return TRIGGER_TYPE_NOT_IN_MEDIA_TIME_RANGE;
+            case 28:
+                return TRIGGER_TYPE_SLOT_ID_FULFILLED_EMPTY;
+            case 29:
+                return TRIGGER_TYPE_SLOT_ID_FULFILLED_NON_EMPTY;
+            case 30:
+                return TRIGGER_TYPE_ON_OPPORTUNITY_TYPE_RECEIVED;
+            case 31:
+                return TRIGGER_TYPE_SLOT_TYPE_ENTER_REQUESTED;
+            case 32:
+                return TRIGGER_TYPE_LAYOUT_ID_ACTIVE_AND_SLOT_ID_HAS_EXITED;
+            case 33:
+                return TRIGGER_TYPE_PLAYBACK_MINIMIZED;
+            case 34:
+                return TRIGGER_TYPE_MEDIA_PAUSED;
+            case 35:
+                return TRIGGER_TYPE_MEDIA_RESUMED;
+            case 36:
+                return TRIGGER_TYPE_ON_DIFFERENT_SLOT_ID_ENTER_REQUESTED;
+            case 37:
+                return TRIGGER_TYPE_ON_ACTIVATE_EXTERNAL_PLAYBACK;
+            case 38:
+                return TRIGGER_TYPE_REEL_ITEM_SEQUENCE_ABANDONED;
+            case 39:
+                return TRIGGER_TYPE_ON_MEDIA_PLAYBACK_ERROR;
+            case 40:
+                return TRIGGER_TYPE_VISIT_ADVERTISER_LINK_CLICKED;
+            case 41:
+                return TRIGGER_TYPE_MEDIA_FULLSCREEN_ENTERED;
+            case 42:
+                return TRIGGER_TYPE_MEDIA_FULLSCREEN_EXITED;
+            case 43:
+                return TRIGGER_TYPE_MEDIA_NON_TERMINAL_ABANDONED;
+            case 44:
+                return TRIGGER_TYPE_ACTIVE_VIEW_VIEWABLE_CRITERIA_SATISFIED;
+            case 45:
+                return TRIGGER_TYPE_ACTIVE_VIEW_MEASURABLE_CRITERIA_SATISFIED;
+            case 46:
+                return TRIGGER_TYPE_ACTIVE_VIEW_GROUPM_VIEWABLE_CRITERIA_SATISFIED;
+            case 47:
+                return TRIGGER_TYPE_SEQUENCE_ITEM_IN_PLAYER_SPACE_AVAILABLE;
+            case 48:
+                return TRIGGER_TYPE_SEQUENCE_ITEM_IN_PLAYER_SPACE_UNAVAILABLE;
+            case 49:
+                return TRIGGER_TYPE_LAYOUT_ID_ENTERED_AND_SLOT_FULFILLED;
+            case 50:
+                return TRIGGER_TYPE_PROGRESS_PAST_MEDIA_TIME_WITH_OFFSET_RELATIVE_TO_LAYOUT_ENTER;
+            case 51:
+                return TRIGGER_TYPE_SEEK_FORWARD_PAST_MEDIA_TIME_WITH_OFFSET_RELATIVE_TO_LAYOUT_ENTER;
+            case 52:
+                return TRIGGER_TYPE_SEEK_BACKWARD_BEFORE_LAYOUT_ENTER_TIME;
+            case 53:
+                return TRIGGER_TYPE_MEDIA_TIME_RANGE_ALLOW_REACTIVATION_WITHIN_RANGE;
+            case 54:
+                return TRIGGER_TYPE_IN_MEDIA_TIME_RANGE_AND_SLOT_FULFILLED_NON_EMPTY;
+            case 55:
+                return TRIGGER_TYPE_SLOT_ID_UNSCHEDULED;
+            case 56:
+                return TRIGGER_TYPE_MEDIA_PLAYBACK_STARTED;
+            default:
+                return null;
+        }
+    }
+
+    @Override // defpackage.aonq
+    public final int getNumber() {
+        return this.af;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.af);
+    }
+}

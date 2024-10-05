@@ -1,0 +1,21 @@
+package defpackage;
+
+import android.R;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class bsy {
+    public static final int[] a = {R.attr.selectableItemBackground, com.google.android.youtube.R.attr.selectableItemBackground};
+    public static final int[] b = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, com.google.android.youtube.R.attr.disableDependentsState, com.google.android.youtube.R.attr.summaryOff, com.google.android.youtube.R.attr.summaryOn};
+    public static final int[] c = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, com.google.android.youtube.R.attr.dialogIcon, com.google.android.youtube.R.attr.dialogLayout, com.google.android.youtube.R.attr.dialogMessage, com.google.android.youtube.R.attr.dialogTitle, com.google.android.youtube.R.attr.negativeButtonText, com.google.android.youtube.R.attr.positiveButtonText};
+    public static final int[] d = {com.google.android.youtube.R.attr.useSimpleSummaryProvider};
+    public static final int[] e = {R.attr.entries, R.attr.entryValues, com.google.android.youtube.R.attr.entries, com.google.android.youtube.R.attr.entryValues, com.google.android.youtube.R.attr.useSimpleSummaryProvider};
+    public static final int[] f = {R.attr.entries, R.attr.entryValues, com.google.android.youtube.R.attr.entries, com.google.android.youtube.R.attr.entryValues};
+    public static final int[] g = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, com.google.android.youtube.R.attr.allowDividerAbove, com.google.android.youtube.R.attr.allowDividerBelow, com.google.android.youtube.R.attr.defaultValue, com.google.android.youtube.R.attr.dependency, com.google.android.youtube.R.attr.enableCopying, com.google.android.youtube.R.attr.enabled, com.google.android.youtube.R.attr.fragment, com.google.android.youtube.R.attr.icon, com.google.android.youtube.R.attr.iconSpaceReserved, com.google.android.youtube.R.attr.isPreferenceVisible, com.google.android.youtube.R.attr.key, com.google.android.youtube.R.attr.layout, com.google.android.youtube.R.attr.order, com.google.android.youtube.R.attr.persistent, com.google.android.youtube.R.attr.selectable, com.google.android.youtube.R.attr.shouldDisableView, com.google.android.youtube.R.attr.singleLineTitle, com.google.android.youtube.R.attr.summary, com.google.android.youtube.R.attr.title, com.google.android.youtube.R.attr.widgetLayout};
+    public static final int[] h = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, com.google.android.youtube.R.attr.allowDividerAfterLastItem};
+    public static final int[] i = {R.attr.orderingFromXml, com.google.android.youtube.R.attr.initialExpandedChildrenCount, com.google.android.youtube.R.attr.orderingFromXml};
+    public static final int[] j = {R.attr.maxWidth, R.attr.maxHeight, com.google.android.youtube.R.attr.maxHeight, com.google.android.youtube.R.attr.maxWidth};
+    public static final int[] k = {R.attr.layout, R.attr.max, com.google.android.youtube.R.attr.adjustable, com.google.android.youtube.R.attr.min, com.google.android.youtube.R.attr.seekBarIncrement, com.google.android.youtube.R.attr.showSeekBarValue, com.google.android.youtube.R.attr.updatesContinuously};
+    public static final int[] l = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.google.android.youtube.R.attr.disableDependentsState, com.google.android.youtube.R.attr.summaryOff, com.google.android.youtube.R.attr.summaryOn, com.google.android.youtube.R.attr.switchTextOff, com.google.android.youtube.R.attr.switchTextOn};
+    public static final int[] m = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.google.android.youtube.R.attr.disableDependentsState, com.google.android.youtube.R.attr.summaryOff, com.google.android.youtube.R.attr.summaryOn, com.google.android.youtube.R.attr.switchTextOff, com.google.android.youtube.R.attr.switchTextOn};
+}

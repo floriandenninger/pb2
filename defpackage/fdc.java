@@ -1,0 +1,310 @@
+package defpackage;
+
+import android.app.Application;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class fdc {
+    public final actg a;
+    public final ypa b;
+
+    public fdc(actg actgVar, ypa ypaVar) {
+        actgVar.getClass();
+        this.a = actgVar;
+        ypaVar.getClass();
+        this.b = ypaVar;
+    }
+
+    public final void a(Application application, azrw azrwVar) {
+        application.registerActivityLifecycleCallbacks(new fda(this, azrwVar));
+    }
+
+    public final void b() {
+        this.a.b(fcr.class, new fcl(0)).c(fct.class);
+        this.a.k(fco.class, fcs.class, new fcl(1));
+        this.a.h(fcr.class, "f_unknown");
+        this.a.h(fco.class, "f_proc");
+        this.a.g(fcr.class, new fcz(1));
+    }
+
+    public final void c(aifw aifwVar, afhz afhzVar, yxx yxxVar) {
+        aifwVar.getClass();
+        afhzVar.getClass();
+        yxxVar.getClass();
+        fdb fdbVar = new fdb();
+        boolean o = yxxVar.o(yxx.O);
+        Class cls = o ? ajmm.class : fdl.class;
+        acte c = this.a.c(fcm.class, fcs.class, new fcl(2), true);
+        c.b(fdf.class);
+        c.c(fdk.class);
+        c.c(cls);
+        if (yxxVar.o(yxx.P)) {
+            c.c(fdh.class);
+        }
+        wzi wziVar = new wzi(aifwVar, afhzVar, fdbVar, 3, (short[]) null);
+        acte c2 = this.a.c(fcu.class, fcs.class, wziVar, true);
+        c2.b(fdg.class);
+        c2.c(ahde.class);
+        c2.c(ahdf.class);
+        c2.c(ahdb.class);
+        c2.c(ahdj.class);
+        c2.c(aigr.class);
+        c2.c(ahda.class);
+        acte c3 = this.a.c(fcp.class, fcn.class, new fcl(4), true);
+        c3.b(feg.class);
+        c3.b(fee.class);
+        c3.c(fek.class);
+        acte d = this.a.d(fem.class, wziVar, new fcy(this));
+        d.c(ahde.class);
+        d.c(ahdf.class);
+        d.c(ahdb.class);
+        d.c(fem.class);
+        d.c(ahdj.class);
+        d.c(aigr.class);
+        d.c(ahda.class);
+        acte b = this.a.b(fdp.class, new fbn(1));
+        b.c(fdq.class);
+        b.c(fdr.class);
+        b.c(fdt.class);
+        b.c(fds.class);
+        b.c(fdu.class);
+        b.c(fea.class);
+        if (!o) {
+            this.a.c(ajmn.class, fcn.class, new fbn(5), false).c(ajmm.class);
+        }
+        this.a.c(ajml.class, fcq.class, new fbn(6), false).c(ajmk.class);
+        acte b2 = this.a.b(ahdj.class, wziVar);
+        b2.c(ahde.class);
+        b2.c(ahdf.class);
+        b2.c(ahdb.class);
+        b2.c(fem.class);
+        b2.c(ahdj.class);
+        b2.c(aigr.class);
+        b2.c(ahda.class);
+        acte b3 = this.a.b(xad.class, new wzi(aifwVar, afhzVar, (amnv) fdbVar, 1, (byte[]) null));
+        b3.c(ahde.class);
+        b3.c(ahdf.class);
+        b3.c(ahdb.class);
+        b3.b(fem.class);
+        b3.b(ahdj.class);
+        b3.b(aigr.class);
+        b3.b(ahda.class);
+        acte b4 = this.a.b(xaj.class, new wzi(aifwVar, afhzVar, fdbVar, 2, (char[]) null));
+        b4.c(ahde.class);
+        b4.c(ahdf.class);
+        b4.c(ahdb.class);
+        b4.b(xai.class);
+        b4.b(fem.class);
+        b4.b(ahdj.class);
+        b4.b(aigr.class);
+        b4.b(ahda.class);
+        acte b5 = this.a.b(xav.class, new wzi(aifwVar, afhzVar, fdbVar, 0));
+        b5.c(ahde.class);
+        b5.c(ahdf.class);
+        b5.c(ahdb.class);
+        b5.b(fem.class);
+        b5.b(ahdj.class);
+        b5.b(aigr.class);
+        b5.b(ahda.class);
+        acte b6 = this.a.b(xbd.class, new ahcd("va"));
+        b6.c(xaj.class);
+        b6.b(xai.class);
+        b6.b(fem.class);
+        acte b7 = this.a.b(xau.class, new ahcd("av"));
+        b7.c(xat.class);
+        b7.b(fem.class);
+        b7.b(ahdj.class);
+        b7.b(aigr.class);
+        b7.b(ahda.class);
+        acte b8 = this.a.b(fbi.class, new fbn(0));
+        b8.c(ahde.class);
+        b8.c(ahdf.class);
+        b8.b(aigr.class);
+        b8.b(fbh.class);
+        b8.b(fbi.class);
+        this.a.h(fcm.class, "f_home");
+        this.a.h(fcu.class, "f_watch");
+        this.a.h(fcp.class, "f_search");
+        this.a.h(fct.class, "f_unknown_e");
+        this.a.h(fde.class, "app_l");
+        this.a.h(fdf.class, "ol_i");
+        this.a.h(fdg.class, "pl_int");
+        this.a.h(fdd.class, "cfg_a");
+        this.a.h(fdv.class, "cfg_c");
+        this.a.h(fdz.class, "cfg_h");
+        this.a.g(fdj.class, fcx.b);
+        this.a.h(fdj.class, "bres");
+        this.a.h(fdi.class, "brer");
+        this.a.h(aael.class, "brns");
+        this.a.h(aaek.class, "brnr");
+        this.a.h(aaej.class, "brps");
+        this.a.h(aaei.class, "brpe");
+        this.a.h(fdk.class, "br_e");
+        this.a.h(fdu.class, "br_s");
+        this.a.h(fdp.class, "br_r");
+        this.a.h(fdl.class, "ol");
+        this.a.h(fdh.class, "aa");
+        this.a.h(fen.class, "ui_l");
+        this.a.h(fem.class, "pl_int");
+        this.a.h(fed.class, "rurl_s");
+        this.a.h(fec.class, "rurl_r");
+        this.a.h(aaer.class, "rurlps");
+        this.a.h(aaeq.class, "rurlpe");
+        this.a.h(fdq.class, "br_ld");
+        this.a.h(fdr.class, "brr_e");
+        this.a.h(fdt.class, "brr_i");
+        this.a.h(fds.class, "brr_ius");
+        this.a.h(fea.class, "ne_r");
+        this.a.h(fel.class, "sr_ui");
+        this.a.h(fei.class, "sr_pa");
+        this.a.h(fej.class, "sr_s");
+        this.a.h(feh.class, "sr_r");
+        this.a.h(fee.class, "sr_e");
+        this.a.h(feg.class, "sf_i");
+        this.a.h(fek.class, "sr_p");
+        this.a.h(aaet.class, "ssns");
+        this.a.h(aaes.class, "ssnr");
+        this.a.h(fdy.class, "gu_s");
+        this.a.h(fdx.class, "gu_r");
+        this.a.h(fdw.class, "gu_e");
+        actg actgVar = this.a;
+        actgVar.h(ajmn.class, "thmon_s");
+        actgVar.h(ajmm.class, "thmon_e");
+        actgVar.h(ajml.class, "thmon_s");
+        actgVar.h(ajmk.class, "thmon_e");
+        actgVar.i(ajmr.class, new ajmh(0));
+        actgVar.i(ajmq.class, new ajmh(0));
+        actgVar.i(ajmp.class, new ajmh(0));
+        actgVar.i(ajmo.class, new ajmh(0));
+        actgVar.g(ajmr.class, fcx.r);
+        this.a.h(feo.class, "uiwwa_c");
+        this.a.h(fes.class, "uiwwa_s");
+        this.a.h(fer.class, "uiwwa_r");
+        this.a.h(fep.class, "uiwwa_pr");
+        this.a.h(feq.class, "uiwwa_e");
+        this.a.h(fdm.class, "uibf_c");
+        this.a.h(fdo.class, "uibf_s");
+        this.a.h(fdn.class, "uibf_r");
+        this.a.h(feb.class, "uipb_gld");
+        this.a.h(fef.class, "uisf_r");
+        this.a.h(fbl.class, "im_d");
+        this.a.h(fbl.class, "im_s");
+        this.a.h(fbk.class, "im_po");
+        this.a.h(fbj.class, "im_pl");
+        this.a.h(fbi.class, "im_vs");
+        this.a.h(fbv.class, "js_is");
+        this.a.h(fbp.class, "js_if");
+        this.a.h(fbu.class, "js_ebs");
+        this.a.h(fbt.class, "js_ebf");
+        this.a.h(fbs.class, "js_ebc");
+        this.a.h(fbr.class, "js_eas");
+        this.a.h(fbq.class, "js_eaf");
+        this.a.g(aapk.class, new fcz(0));
+        this.b.a(this, aapk.class, fdbVar);
+        this.a.g(fct.class, new fcz(2));
+        this.a.g(acrm.class, fcx.a);
+        actg actgVar2 = this.a;
+        actgVar2.h(ahdc.class, "pl_i");
+        actgVar2.h(ahdd.class, "pl_r");
+        actgVar2.h(ahdh.class, "ps_s");
+        actgVar2.h(ahdg.class, "ps_r");
+        actgVar2.h(aaep.class, "psns");
+        actgVar2.h(aaeo.class, "psnr");
+        actgVar2.h(aaen.class, "psps");
+        actgVar2.h(aaem.class, "pspe");
+        actgVar2.h(ahdn.class, "wn_s");
+        actgVar2.h(ahdm.class, "wn_r");
+        actgVar2.h(aaev.class, "wnps");
+        actgVar2.h(aaeu.class, "wnpe");
+        actgVar2.h(ahdl.class, "sw_s");
+        actgVar2.h(ahdk.class, "sw_r");
+        actgVar2.h(ahcy.class, "pc");
+        actgVar2.h(ahdi.class, "pl_s");
+        actgVar2.h(ahde.class, "pbs");
+        actgVar2.h(ahcz.class, "pbi");
+        actgVar2.h(ahdf.class, "pbu");
+        actgVar2.h(ahdb.class, "pbp");
+        actgVar2.h(ahdj.class, "pl_int");
+        actgVar2.h(aigr.class, "pl_ex");
+        actgVar2.h(ahda.class, "pl_int");
+        actgVar2.g(ahdg.class, fcx.m);
+        actgVar2.i(ahef.class, new actf() { // from class: ahcb
+            @Override // defpackage.actf
+            public final ynz a(ynz ynzVar) {
+                ahef ahefVar = (ahef) ynzVar;
+                aign aignVar = aign.NEW;
+                aiey aieyVar = aiey.START;
+                if (ahefVar.c().ordinal() != 2) {
+                    return null;
+                }
+                ahefVar.g("gv");
+                return ahefVar;
+            }
+        });
+        actgVar2.g(ahef.class, fcx.o);
+        actgVar2.g(aigr.class, fcx.q);
+        actgVar2.g(aiez.class, fcx.p);
+        actgVar2.g(aeqq.class, fcx.k);
+        actgVar2.g(ahdi.class, fcx.n);
+        actgVar2.g(ahde.class, fcx.l);
+        afki.a(actgVar2);
+        aear.a(actgVar2);
+        actg actgVar3 = this.a;
+        actgVar3.h(xao.class, "ab_s");
+        actgVar3.h(xan.class, "ab_r");
+        actgVar3.h(xaq.class, "ad_bl");
+        actgVar3.h(xai.class, "ad_ba");
+        actgVar3.h(xal.class, "msti");
+        actgVar3.h(xak.class, "mstr");
+        actgVar3.h(xam.class, "ad_bp");
+        actgVar3.h(xas.class, "ads_s");
+        actgVar3.h(xar.class, "ads_e");
+        actgVar3.h(xaj.class, "ab_cre");
+        actgVar3.h(xat.class, "ad_pre");
+        actgVar3.h(xbf.class, "pacf_ss");
+        actgVar3.h(xbe.class, "pacf_sb");
+        actgVar3.h(xbg.class, "pacf_ssc");
+        actgVar3.h(xax.class, "pacf_ls");
+        actgVar3.h(xaw.class, "pacf_lb");
+        actgVar3.h(xay.class, "pacf_lsc");
+        actgVar3.h(xbh.class, "ad_vr");
+        actgVar3.h(xbc.class, "pb_s");
+        actgVar3.h(xba.class, "pb_c");
+        actgVar3.h(xaz.class, "pb_ca");
+        actgVar3.h(xbb.class, "pb_f");
+        actgVar3.i(xbk.class, new ajmh(1));
+        actgVar3.g(xbk.class, new fcz(3));
+        actgVar3.g(xag.class, new fcz(4));
+        actgVar3.g(ahef.class, fcx.c);
+        actgVar3.g(xap.class, new fcz(5));
+        actgVar3.g(xau.class, new fcz(6));
+        actgVar3.g(xad.class, new fcz(7));
+        actgVar3.g(xbc.class, new fcz(8));
+        actgVar3.g(xba.class, new fcz(9));
+        actgVar3.g(xbb.class, new fcz(10));
+        fbx fbxVar = new fbx(this.a);
+        if (!fbxVar.a) {
+            acte d2 = fbxVar.b.d(fci.class, new fbn(2), new fbw(fbxVar));
+            d2.c(fby.class);
+            d2.c(fbz.class);
+            d2.b(fcg.class);
+            d2.b(fca.class);
+            d2.b(fch.class);
+            fbxVar.b.h(fci.class, "ytro_s");
+            fbxVar.b.h(fcb.class, "purb_c");
+            fbxVar.b.h(fcf.class, "walti_s");
+            fbxVar.b.h(fcc.class, "walnt_s");
+            fbxVar.b.h(fcd.class, "walpt_s");
+            fbxVar.b.h(fce.class, "wali_s");
+            fbxVar.b.h(fby.class, "wali_c");
+            fbxVar.b.h(fca.class, "waltr_f");
+            fbxVar.b.h(fcg.class, "waltr_s");
+            fbxVar.b.h(fbz.class, "waltr_c");
+            fbxVar.b.h(fch.class, "ytrmsp_s");
+            fbxVar.a = true;
+        }
+        actg actgVar4 = this.a;
+        actgVar4.h(aiau.class, "pft_i");
+        actgVar4.h(aiat.class, "pbf_c");
+    }
+}

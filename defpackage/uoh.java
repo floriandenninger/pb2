@@ -1,0 +1,9 @@
+package defpackage;
+
+import android.app.Activity;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public interface uoh extends uoj {
+    void c(Activity activity);
+}

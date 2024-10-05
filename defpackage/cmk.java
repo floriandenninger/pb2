@@ -1,0 +1,8 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class cmk {
+    public String a;
+    public String b;
+}

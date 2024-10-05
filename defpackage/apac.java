@@ -1,0 +1,272 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public enum apac implements aonq {
+    LAYOUT_TYPE_UNSPECIFIED(0),
+    LAYOUT_TYPE_MEDIA(1),
+    LAYOUT_TYPE_MEDIA_BREAK(2),
+    LAYOUT_TYPE_COMPANION_AND_IMMERSIVE(3),
+    LAYOUT_TYPE_FORECASTING(4),
+    LAYOUT_TYPE_MEDIA_LAYOUT_PLAYER_OVERLAY(5),
+    LAYOUT_TYPE_FULLSCREEN_COMPANION(6),
+    LAYOUT_TYPE_COMPANION_WITH_ACTION_BUTTON(7),
+    LAYOUT_TYPE_MEDIA_LAYOUT_PLAYER_OVERLAY_LIGHTWEIGHT(8),
+    LAYOUT_TYPE_AD_MEDIA_CONTROLS_BAR(9),
+    LAYOUT_TYPE_AD_MEDIA_CONTROLS_BAR_EXPANDABLE(10),
+    LAYOUT_TYPE_DISCOVERY_PLAYBACK_TRACKER(11),
+    LAYOUT_TYPE_COMPANION(12),
+    LAYOUT_TYPE_COMPANION_WITH_IMAGE(13),
+    LAYOUT_TYPE_IMMERSIVE(14),
+    LAYOUT_TYPE_COMPOSITE_PLAYER_BYTES(15),
+    LAYOUT_TYPE_AD_INFO_OVERLAY(16),
+    LAYOUT_TYPE_SURVEY(17),
+    LAYOUT_TYPE_ENDCAP(18),
+    LAYOUT_TYPE_COMPANION_WITH_SHOPPING(19),
+    LAYOUT_TYPE_IN_VIDEO_TEXT_OVERLAY(20),
+    LAYOUT_TYPE_IN_VIDEO_ENHANCED_TEXT_OVERLAY(21),
+    LAYOUT_TYPE_IN_VIDEO_IMAGE_OVERLAY(22),
+    LAYOUT_TYPE_AD_BREAK_RESPONSE(23),
+    LAYOUT_TYPE_THROTTLED_AD_BREAK_RESPONSE(25),
+    LAYOUT_TYPE_SLIDING_TEXT_PLAYER_OVERLAY(26),
+    LAYOUT_TYPE_WATCH_NEXT_RESPONSE(61),
+    LAYOUT_TYPE_DISPLAY_SQUARE_IMAGE(35),
+    LAYOUT_TYPE_DISPLAY_COMPACT_SQUARE_IMAGE(36),
+    LAYOUT_TYPE_DISPLAY_COMPACT_LANDSCAPE_IMAGE(37),
+    LAYOUT_TYPE_DISPLAY_FULL_WIDTH_SQUARE_IMAGE(38),
+    LAYOUT_TYPE_DISPLAY_LANDSCAPE_IMAGE_WIDE_BUTTON(39),
+    LAYOUT_TYPE_DISPLAY_LANDSCAPE_IMAGE(40),
+    LAYOUT_TYPE_DISPLAY_TEXT_BUTTONED_HEADERED(41),
+    LAYOUT_TYPE_DISPLAY_SQUARE_IMAGE_X_DISPLAY_TOP_LANDSCAPE_IMAGE(42),
+    LAYOUT_TYPE_DISPLAY_LANDSCAPE_IMAGE_WIDE_BUTTON_X_DISPLAY_TOP_LANDSCAPE_IMAGE(43),
+    LAYOUT_TYPE_DISPLAY_TOP_LANDSCAPE_IMAGE(44),
+    LAYOUT_TYPE_DISPLAY_TOP_LANDSCAPE_IMAGE_BUTTON(45),
+    LAYOUT_TYPE_CAROUSEL_FOOTERED(24),
+    LAYOUT_TYPE_CAROUSEL_FOOTERED_BUTTONED(27),
+    LAYOUT_TYPE_CAROUSEL_HEADERED(28),
+    LAYOUT_TYPE_VIDEO_DISPLAY_FULL(29),
+    LAYOUT_TYPE_VIDEO_DISPLAY_FULL_HEADERED(75),
+    LAYOUT_TYPE_VIDEO_DISPLAY_FULL_BUTTONED(30),
+    LAYOUT_TYPE_VIDEO_DISPLAY_FULL_TEXT_BUTTONED(31),
+    LAYOUT_TYPE_VIDEO_DISPLAY_COMPACT(32),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD(51),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_COMPACT(52),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_VIDEO_WALL_BUTTONED(62),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES_BUTTONED(70),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_IMAGE_BUTTONED(63),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES_IMAGE_BUTTONED(64),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_BUTTONED(65),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_VIDEO_WALL(66),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES(71),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_IMAGE(67),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES_IMAGE(68),
+    LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_TEXT(69),
+    LAYOUT_TYPE_VIDEO_INTERSTITIAL_BUTTONED_LEFT(33),
+    LAYOUT_TYPE_DISPLAY_TEXT(46),
+    LAYOUT_TYPE_DISPLAY_TEXT_BUTTONED(47),
+    LAYOUT_TYPE_SURVEY_OVERLAY_HORIZONTAL(49),
+    LAYOUT_TYPE_SURVEY_OVERLAY_VERTICAL(50),
+    LAYOUT_TYPE_PLAYER_OVERLAY_SEQUENTIAL_QUESTIONS(77),
+    LAYOUT_TYPE_OVERLAY_BANNER_TEXT(78),
+    LAYOUT_TYPE_OVERLAY_BANNER_IMAGE(79),
+    LAYOUT_TYPE_OVERLAY_BANNER_TEXT_IMAGE(80),
+    LAYOUT_TYPE_HORIZONTAL_SMILEY_SINGLE_SELECT(53),
+    LAYOUT_TYPE_VERTICAL_SMILEY_SINGLE_SELECT(54),
+    LAYOUT_TYPE_VERTICAL_TEXT_SINGLE_SELECT(55),
+    LAYOUT_TYPE_VERTICAL_TEXT_MULTI_SELECT(56),
+    LAYOUT_TYPE_REELS_PLAYER_OVERLAY(57),
+    LAYOUT_TYPE_VIDEO_AD_CONTAINER(58),
+    LAYOUT_TYPE_LANDSCAPE_RECTANGLE(59),
+    LAYOUT_TYPE_LANDSCAPE_RECTANGLE_TWO_ROW(60),
+    LAYOUT_TYPE_PANEL(72),
+    LAYOUT_TYPE_COMPOSITE_CONCURRENT_VERTICAL_STACK(73),
+    LAYOUT_TYPE_TEXT_BANNER_OVERLAY(74),
+    LAYOUT_TYPE_CAROUSEL_CLICKABLE_FOOTERED(76);
+
+    public final int aB;
+
+    apac(int i) {
+        this.aB = i;
+    }
+
+    public static aons a() {
+        return aouo.s;
+    }
+
+    public static apac b(int i) {
+        switch (i) {
+            case 0:
+                return LAYOUT_TYPE_UNSPECIFIED;
+            case 1:
+                return LAYOUT_TYPE_MEDIA;
+            case 2:
+                return LAYOUT_TYPE_MEDIA_BREAK;
+            case 3:
+                return LAYOUT_TYPE_COMPANION_AND_IMMERSIVE;
+            case 4:
+                return LAYOUT_TYPE_FORECASTING;
+            case 5:
+                return LAYOUT_TYPE_MEDIA_LAYOUT_PLAYER_OVERLAY;
+            case 6:
+                return LAYOUT_TYPE_FULLSCREEN_COMPANION;
+            case 7:
+                return LAYOUT_TYPE_COMPANION_WITH_ACTION_BUTTON;
+            case 8:
+                return LAYOUT_TYPE_MEDIA_LAYOUT_PLAYER_OVERLAY_LIGHTWEIGHT;
+            case 9:
+                return LAYOUT_TYPE_AD_MEDIA_CONTROLS_BAR;
+            case 10:
+                return LAYOUT_TYPE_AD_MEDIA_CONTROLS_BAR_EXPANDABLE;
+            case 11:
+                return LAYOUT_TYPE_DISCOVERY_PLAYBACK_TRACKER;
+            case 12:
+                return LAYOUT_TYPE_COMPANION;
+            case 13:
+                return LAYOUT_TYPE_COMPANION_WITH_IMAGE;
+            case 14:
+                return LAYOUT_TYPE_IMMERSIVE;
+            case 15:
+                return LAYOUT_TYPE_COMPOSITE_PLAYER_BYTES;
+            case 16:
+                return LAYOUT_TYPE_AD_INFO_OVERLAY;
+            case 17:
+                return LAYOUT_TYPE_SURVEY;
+            case 18:
+                return LAYOUT_TYPE_ENDCAP;
+            case 19:
+                return LAYOUT_TYPE_COMPANION_WITH_SHOPPING;
+            case 20:
+                return LAYOUT_TYPE_IN_VIDEO_TEXT_OVERLAY;
+            case 21:
+                return LAYOUT_TYPE_IN_VIDEO_ENHANCED_TEXT_OVERLAY;
+            case 22:
+                return LAYOUT_TYPE_IN_VIDEO_IMAGE_OVERLAY;
+            case 23:
+                return LAYOUT_TYPE_AD_BREAK_RESPONSE;
+            case 24:
+                return LAYOUT_TYPE_CAROUSEL_FOOTERED;
+            case 25:
+                return LAYOUT_TYPE_THROTTLED_AD_BREAK_RESPONSE;
+            case 26:
+                return LAYOUT_TYPE_SLIDING_TEXT_PLAYER_OVERLAY;
+            case 27:
+                return LAYOUT_TYPE_CAROUSEL_FOOTERED_BUTTONED;
+            case 28:
+                return LAYOUT_TYPE_CAROUSEL_HEADERED;
+            case 29:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_FULL;
+            case 30:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_FULL_BUTTONED;
+            case 31:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_FULL_TEXT_BUTTONED;
+            case 32:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_COMPACT;
+            case 33:
+                return LAYOUT_TYPE_VIDEO_INTERSTITIAL_BUTTONED_LEFT;
+            case 34:
+            case 48:
+            default:
+                return null;
+            case 35:
+                return LAYOUT_TYPE_DISPLAY_SQUARE_IMAGE;
+            case 36:
+                return LAYOUT_TYPE_DISPLAY_COMPACT_SQUARE_IMAGE;
+            case 37:
+                return LAYOUT_TYPE_DISPLAY_COMPACT_LANDSCAPE_IMAGE;
+            case 38:
+                return LAYOUT_TYPE_DISPLAY_FULL_WIDTH_SQUARE_IMAGE;
+            case 39:
+                return LAYOUT_TYPE_DISPLAY_LANDSCAPE_IMAGE_WIDE_BUTTON;
+            case 40:
+                return LAYOUT_TYPE_DISPLAY_LANDSCAPE_IMAGE;
+            case 41:
+                return LAYOUT_TYPE_DISPLAY_TEXT_BUTTONED_HEADERED;
+            case 42:
+                return LAYOUT_TYPE_DISPLAY_SQUARE_IMAGE_X_DISPLAY_TOP_LANDSCAPE_IMAGE;
+            case 43:
+                return LAYOUT_TYPE_DISPLAY_LANDSCAPE_IMAGE_WIDE_BUTTON_X_DISPLAY_TOP_LANDSCAPE_IMAGE;
+            case 44:
+                return LAYOUT_TYPE_DISPLAY_TOP_LANDSCAPE_IMAGE;
+            case 45:
+                return LAYOUT_TYPE_DISPLAY_TOP_LANDSCAPE_IMAGE_BUTTON;
+            case 46:
+                return LAYOUT_TYPE_DISPLAY_TEXT;
+            case 47:
+                return LAYOUT_TYPE_DISPLAY_TEXT_BUTTONED;
+            case 49:
+                return LAYOUT_TYPE_SURVEY_OVERLAY_HORIZONTAL;
+            case 50:
+                return LAYOUT_TYPE_SURVEY_OVERLAY_VERTICAL;
+            case 51:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD;
+            case 52:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_COMPACT;
+            case 53:
+                return LAYOUT_TYPE_HORIZONTAL_SMILEY_SINGLE_SELECT;
+            case 54:
+                return LAYOUT_TYPE_VERTICAL_SMILEY_SINGLE_SELECT;
+            case 55:
+                return LAYOUT_TYPE_VERTICAL_TEXT_SINGLE_SELECT;
+            case 56:
+                return LAYOUT_TYPE_VERTICAL_TEXT_MULTI_SELECT;
+            case 57:
+                return LAYOUT_TYPE_REELS_PLAYER_OVERLAY;
+            case 58:
+                return LAYOUT_TYPE_VIDEO_AD_CONTAINER;
+            case 59:
+                return LAYOUT_TYPE_LANDSCAPE_RECTANGLE;
+            case 60:
+                return LAYOUT_TYPE_LANDSCAPE_RECTANGLE_TWO_ROW;
+            case 61:
+                return LAYOUT_TYPE_WATCH_NEXT_RESPONSE;
+            case 62:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_VIDEO_WALL_BUTTONED;
+            case 63:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_IMAGE_BUTTONED;
+            case 64:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES_IMAGE_BUTTONED;
+            case 65:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_BUTTONED;
+            case 66:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_VIDEO_WALL;
+            case 67:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_IMAGE;
+            case 68:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES_IMAGE;
+            case 69:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_TEXT;
+            case 70:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES_BUTTONED;
+            case 71:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_BILLBOARD_EXPANDABLE_VIDEO_TILES;
+            case 72:
+                return LAYOUT_TYPE_PANEL;
+            case 73:
+                return LAYOUT_TYPE_COMPOSITE_CONCURRENT_VERTICAL_STACK;
+            case 74:
+                return LAYOUT_TYPE_TEXT_BANNER_OVERLAY;
+            case 75:
+                return LAYOUT_TYPE_VIDEO_DISPLAY_FULL_HEADERED;
+            case 76:
+                return LAYOUT_TYPE_CAROUSEL_CLICKABLE_FOOTERED;
+            case 77:
+                return LAYOUT_TYPE_PLAYER_OVERLAY_SEQUENTIAL_QUESTIONS;
+            case 78:
+                return LAYOUT_TYPE_OVERLAY_BANNER_TEXT;
+            case 79:
+                return LAYOUT_TYPE_OVERLAY_BANNER_IMAGE;
+            case 80:
+                return LAYOUT_TYPE_OVERLAY_BANNER_TEXT_IMAGE;
+        }
+    }
+
+    @Override // defpackage.aonq
+    public final int getNumber() {
+        return this.aB;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.aB);
+    }
+}

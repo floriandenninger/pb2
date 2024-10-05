@@ -1,0 +1,9 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class cc extends RuntimeException {
+    public cc(String str, Exception exc) {
+        super(str, exc);
+    }
+}

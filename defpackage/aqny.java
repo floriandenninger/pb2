@@ -1,0 +1,66 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class aqny extends aonm implements aooz {
+    public static final aqny a;
+    public static final aonk b;
+    private static volatile aopf o;
+    public int c;
+    public avgg e;
+    public int h;
+    private byte p = 2;
+    public String d = "";
+    public String f = "";
+    public String g = "";
+    public String i = "";
+    public String j = "";
+    public String k = "";
+    public String l = "";
+    public aony m = emptyProtobufList();
+    public aomf n = aomf.b;
+
+    static {
+        aqny aqnyVar = new aqny();
+        a = aqnyVar;
+        aonm.registerDefaultInstance(aqny.class, aqnyVar);
+        b = aonm.newSingularGeneratedExtension(aqug.a, aqnyVar, aqnyVar, null, 199, aoqn.MESSAGE, aqny.class);
+    }
+
+    private aqny() {
+    }
+
+    @Override // defpackage.aonm
+    protected final Object dynamicMethod(aonl aonlVar, Object obj, Object obj2) {
+        aonl aonlVar2 = aonl.GET_MEMOIZED_IS_INITIALIZED;
+        switch (aonlVar) {
+            case GET_MEMOIZED_IS_INITIALIZED:
+                return Byte.valueOf(this.p);
+            case SET_MEMOIZED_IS_INITIALIZED:
+                this.p = obj == null ? (byte) 0 : (byte) 1;
+                return null;
+            case BUILD_MESSAGE_INFO:
+                return newMessageInfo(a, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0001\u0001\u0001ဈ\u0000\u0002ᐉ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005င\u0004\u0006ဈ\u0005\u0007ဈ\u0006\bဈ\u0007\tဈ\b\n\u001b\u000bည\t", new Object[]{"c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", aqll.class, "n"});
+            case NEW_MUTABLE_INSTANCE:
+                return new aqny();
+            case NEW_BUILDER:
+                return new aone((char[][][]) null, (boolean[]) null);
+            case GET_DEFAULT_INSTANCE:
+                return a;
+            case GET_PARSER:
+                aopf aopfVar = o;
+                if (aopfVar == null) {
+                    synchronized (aqny.class) {
+                        aopfVar = o;
+                        if (aopfVar == null) {
+                            aopfVar = new aonf(a);
+                            o = aopfVar;
+                        }
+                    }
+                }
+                return aopfVar;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

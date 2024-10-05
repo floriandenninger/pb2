@@ -1,0 +1,165 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public enum apaa implements aonq {
+    ADS_CLIENT_EVENT_TYPE_UNSPECIFIED(0),
+    ADS_CLIENT_EVENT_TYPE_ADPLACEMENTRENDERER_RECEIVED(1),
+    ADS_CLIENT_EVENT_TYPE_ADPLACEMENT_SCHEDULED(2),
+    ADS_CLIENT_EVENT_TYPE_ENTER_LAYOUT_REQUESTED(3),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_ENTERED(4),
+    ADS_CLIENT_EVENT_TYPE_SLOT_RECEIVED(42),
+    ADS_CLIENT_EVENT_TYPE_SCHEDULE_SLOT_REQUESTED(9),
+    ADS_CLIENT_EVENT_TYPE_SLOT_SCHEDULED(10),
+    ADS_CLIENT_EVENT_TYPE_FULFILL_SLOT_REQUESTED(11),
+    ADS_CLIENT_EVENT_TYPE_SLOT_FULFILLED_NON_EMPTY(12),
+    ADS_CLIENT_EVENT_TYPE_SLOT_FULFILLED_EMPTY(13),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_RECEIVED(43),
+    ADS_CLIENT_EVENT_TYPE_SCHEDULE_LAYOUT_REQUESTED(14),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_SCHEDULED(15),
+    ADS_CLIENT_EVENT_TYPE_OPPORTUNITY_RECEIVED(16),
+    ADS_CLIENT_EVENT_TYPE_OPPORTUNITY_PROCESSED(17),
+    ADS_CLIENT_EVENT_TYPE_ENTER_SLOT_REQUESTED(18),
+    ADS_CLIENT_EVENT_TYPE_SLOT_ENTERED(19),
+    ADS_CLIENT_EVENT_TYPE_EXIT_SLOT_REQUESTED(20),
+    ADS_CLIENT_EVENT_TYPE_SLOT_EXITED(21),
+    ADS_CLIENT_EVENT_TYPE_UNSCHEDULE_SLOT_REQUESTED(22),
+    ADS_CLIENT_EVENT_TYPE_SLOT_UNSCHEDULED(23),
+    ADS_CLIENT_EVENT_TYPE_TRIGGER_ACTIVATED(24),
+    ADS_CLIENT_EVENT_TYPE_EXIT_LAYOUT_REQUESTED(25),
+    ADS_CLIENT_EVENT_TYPE_CANCEL_SLOT_FULFILLMENT_REQUESTED(26),
+    ADS_CLIENT_EVENT_TYPE_SLOT_FULFILLMENT_CANCELLED(27),
+    ADS_CLIENT_EVENT_TYPE_NON_TERMINAL_ABANDON(28),
+    ADS_CLIENT_EVENT_TYPE_PING_SEND_REQUESTED(38),
+    ADS_CLIENT_EVENT_TYPE_PING_SENT(39),
+    ADS_CLIENT_EVENT_TYPE_SKIP_LAYOUT_REQUESTED(5),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_SKIPPED(6),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_ABANDONED(7),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_NORMALLY(8),
+    ADS_CLIENT_EVENT_TYPE_NORMAL_EXIT_LAYOUT_REQUESTED(29),
+    ADS_CLIENT_EVENT_TYPE_SKIP_EXIT_LAYOUT_REQUESTED(30),
+    ADS_CLIENT_EVENT_TYPE_MUTE_EXIT_LAYOUT_REQUESTED(31),
+    ADS_CLIENT_EVENT_TYPE_ABANDON_EXIT_LAYOUT_REQUESTED(32),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_SKIP(33),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_MUTE(34),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_ABANDON(35),
+    ADS_CLIENT_EVENT_TYPE_USER_INPUT_SUBMITTED_EXIT_LAYOUT_REQUESTED(36),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_USER_INPUT_SUBMITTED(37),
+    ADS_CLIENT_EVENT_TYPE_USER_CANCELLED_EXIT_LAYOUT_REQUESTED(40),
+    ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_USER_CANCELLED(41);
+
+    public final int S;
+
+    apaa(int i) {
+        this.S = i;
+    }
+
+    public static aons a() {
+        return aouo.q;
+    }
+
+    public static apaa b(int i) {
+        switch (i) {
+            case 0:
+                return ADS_CLIENT_EVENT_TYPE_UNSPECIFIED;
+            case 1:
+                return ADS_CLIENT_EVENT_TYPE_ADPLACEMENTRENDERER_RECEIVED;
+            case 2:
+                return ADS_CLIENT_EVENT_TYPE_ADPLACEMENT_SCHEDULED;
+            case 3:
+                return ADS_CLIENT_EVENT_TYPE_ENTER_LAYOUT_REQUESTED;
+            case 4:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_ENTERED;
+            case 5:
+                return ADS_CLIENT_EVENT_TYPE_SKIP_LAYOUT_REQUESTED;
+            case 6:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_SKIPPED;
+            case 7:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_ABANDONED;
+            case 8:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_NORMALLY;
+            case 9:
+                return ADS_CLIENT_EVENT_TYPE_SCHEDULE_SLOT_REQUESTED;
+            case 10:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_SCHEDULED;
+            case 11:
+                return ADS_CLIENT_EVENT_TYPE_FULFILL_SLOT_REQUESTED;
+            case 12:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_FULFILLED_NON_EMPTY;
+            case 13:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_FULFILLED_EMPTY;
+            case 14:
+                return ADS_CLIENT_EVENT_TYPE_SCHEDULE_LAYOUT_REQUESTED;
+            case 15:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_SCHEDULED;
+            case 16:
+                return ADS_CLIENT_EVENT_TYPE_OPPORTUNITY_RECEIVED;
+            case 17:
+                return ADS_CLIENT_EVENT_TYPE_OPPORTUNITY_PROCESSED;
+            case 18:
+                return ADS_CLIENT_EVENT_TYPE_ENTER_SLOT_REQUESTED;
+            case 19:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_ENTERED;
+            case 20:
+                return ADS_CLIENT_EVENT_TYPE_EXIT_SLOT_REQUESTED;
+            case 21:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_EXITED;
+            case 22:
+                return ADS_CLIENT_EVENT_TYPE_UNSCHEDULE_SLOT_REQUESTED;
+            case 23:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_UNSCHEDULED;
+            case 24:
+                return ADS_CLIENT_EVENT_TYPE_TRIGGER_ACTIVATED;
+            case 25:
+                return ADS_CLIENT_EVENT_TYPE_EXIT_LAYOUT_REQUESTED;
+            case 26:
+                return ADS_CLIENT_EVENT_TYPE_CANCEL_SLOT_FULFILLMENT_REQUESTED;
+            case 27:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_FULFILLMENT_CANCELLED;
+            case 28:
+                return ADS_CLIENT_EVENT_TYPE_NON_TERMINAL_ABANDON;
+            case 29:
+                return ADS_CLIENT_EVENT_TYPE_NORMAL_EXIT_LAYOUT_REQUESTED;
+            case 30:
+                return ADS_CLIENT_EVENT_TYPE_SKIP_EXIT_LAYOUT_REQUESTED;
+            case 31:
+                return ADS_CLIENT_EVENT_TYPE_MUTE_EXIT_LAYOUT_REQUESTED;
+            case 32:
+                return ADS_CLIENT_EVENT_TYPE_ABANDON_EXIT_LAYOUT_REQUESTED;
+            case 33:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_SKIP;
+            case 34:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_MUTE;
+            case 35:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_ABANDON;
+            case 36:
+                return ADS_CLIENT_EVENT_TYPE_USER_INPUT_SUBMITTED_EXIT_LAYOUT_REQUESTED;
+            case 37:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_USER_INPUT_SUBMITTED;
+            case 38:
+                return ADS_CLIENT_EVENT_TYPE_PING_SEND_REQUESTED;
+            case 39:
+                return ADS_CLIENT_EVENT_TYPE_PING_SENT;
+            case 40:
+                return ADS_CLIENT_EVENT_TYPE_USER_CANCELLED_EXIT_LAYOUT_REQUESTED;
+            case 41:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_EXITED_USER_CANCELLED;
+            case 42:
+                return ADS_CLIENT_EVENT_TYPE_SLOT_RECEIVED;
+            case 43:
+                return ADS_CLIENT_EVENT_TYPE_LAYOUT_RECEIVED;
+            default:
+                return null;
+        }
+    }
+
+    @Override // defpackage.aonq
+    public final int getNumber() {
+        return this.S;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.S);
+    }
+}

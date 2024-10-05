@@ -1,0 +1,108 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum augq implements aonq {
+    PROMOTED_SPARKLES_CLICK_LOCATION_UNKNOWN(0),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TITLE(1),
+    PROMOTED_SPARKLES_CLICK_LOCATION_AD_BADGE(2),
+    PROMOTED_SPARKLES_CLICK_LOCATION_THUMBNAIL(3),
+    PROMOTED_SPARKLES_CLICK_LOCATION_DESCRIPTION(4),
+    PROMOTED_SPARKLES_CLICK_LOCATION_ACTION_LABEL(5),
+    PROMOTED_SPARKLES_CLICK_LOCATION_BACKGROUND(6),
+    PROMOTED_SPARKLES_CLICK_LOCATION_BORDER(7),
+    PROMOTED_SPARKLES_CLICK_LOCATION_INNER_BACKGROUND(14),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_AD_WEBSITE(8),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_RATING(9),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_PRICE(10),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_APP_STORE(11),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_PRODUCT_ADVERTISER(12),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_PRODUCT_PRICE(13),
+    PROMOTED_SPARKLES_CLICK_LOCATION_CUSTOM_BADGE(15),
+    PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_TITLE(16),
+    PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_THUMBNAIL(17),
+    PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_ACTION_LABEL(18),
+    PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_BACKGROUND(19),
+    PROMOTED_SPARKLES_CLICK_LOCATION_ADVERTISER_AD_ICON(20),
+    PROMOTED_SPARKLES_CLICK_LOCATION_TALKBACK_ACTIVATED(21),
+    PROMOTED_SPARKLES_CLICK_LOCATION_ACTION_LABEL_TALKBACK_ACTIVATED(22),
+    PROMOTED_SPARKLES_CLICK_LOCATION_SITELINK(23),
+    PROMOTED_SPARKLES_CLICK_LOCATION_STAR_RATING(24);
+
+    private final int A;
+
+    augq(int i) {
+        this.A = i;
+    }
+
+    public static aons a() {
+        return aufb.h;
+    }
+
+    public static augq b(int i) {
+        switch (i) {
+            case 0:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_UNKNOWN;
+            case 1:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TITLE;
+            case 2:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_AD_BADGE;
+            case 3:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_THUMBNAIL;
+            case 4:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_DESCRIPTION;
+            case 5:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_ACTION_LABEL;
+            case 6:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_BACKGROUND;
+            case 7:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_BORDER;
+            case 8:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_AD_WEBSITE;
+            case 9:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_RATING;
+            case 10:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_PRICE;
+            case 11:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_CTD_AD_APP_STORE;
+            case 12:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_PRODUCT_ADVERTISER;
+            case 13:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TEXT_PRODUCT_PRICE;
+            case 14:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_INNER_BACKGROUND;
+            case 15:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_CUSTOM_BADGE;
+            case 16:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_TITLE;
+            case 17:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_THUMBNAIL;
+            case 18:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_ACTION_LABEL;
+            case 19:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_CAROUSEL_CARD_BACKGROUND;
+            case 20:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_ADVERTISER_AD_ICON;
+            case 21:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_TALKBACK_ACTIVATED;
+            case 22:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_ACTION_LABEL_TALKBACK_ACTIVATED;
+            case 23:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_SITELINK;
+            case 24:
+                return PROMOTED_SPARKLES_CLICK_LOCATION_STAR_RATING;
+            default:
+                return null;
+        }
+    }
+
+    @Override // defpackage.aonq
+    public final int getNumber() {
+        return this.A;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.A);
+    }
+}

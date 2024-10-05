@@ -1,0 +1,78 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum avtp implements aonq {
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_UNKNOWN(0),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_DELETED_PENDING_UPLOAD(1),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_METADATA_TAPPED_BACK(2),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_EDITOR_TAPPED_BACK(3),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_EDITOR_CANCEL_STREAMING_DUE_TO_EDITS(4),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_CANNOT_FETCH_REMOTE_VIDEO(5),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_EDITOR_FETCH_CANCEL(6),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_TOO_MANY_UPLOADS_IN_SESSION(7),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_CANCEL_RETRY_DIALOG(8),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_NOT_OPENABLE_VIDEO(9),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_INCOMPLETE_CREATION(10),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_CANCELLED_CREATION(11),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_TIMED_OUT_CREATION(12),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_CREATION_CLOSED_DRAFT_SAVED(13),
+    UPLOAD_PROCESSOR_ABANDONMENT_REASON_CREATION_CLOSED_NOTHING_TO_SAVE(14);
+
+    public final int p;
+
+    avtp(int i) {
+        this.p = i;
+    }
+
+    public static aons a() {
+        return avhw.r;
+    }
+
+    public static avtp b(int i) {
+        switch (i) {
+            case 0:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_UNKNOWN;
+            case 1:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_DELETED_PENDING_UPLOAD;
+            case 2:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_METADATA_TAPPED_BACK;
+            case 3:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_EDITOR_TAPPED_BACK;
+            case 4:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_EDITOR_CANCEL_STREAMING_DUE_TO_EDITS;
+            case 5:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_CANNOT_FETCH_REMOTE_VIDEO;
+            case 6:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_EDITOR_FETCH_CANCEL;
+            case 7:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_TOO_MANY_UPLOADS_IN_SESSION;
+            case 8:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_CANCEL_RETRY_DIALOG;
+            case 9:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_NOT_OPENABLE_VIDEO;
+            case 10:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_INCOMPLETE_CREATION;
+            case 11:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_CANCELLED_CREATION;
+            case 12:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_TIMED_OUT_CREATION;
+            case 13:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_CREATION_CLOSED_DRAFT_SAVED;
+            case 14:
+                return UPLOAD_PROCESSOR_ABANDONMENT_REASON_CREATION_CLOSED_NOTHING_TO_SAVE;
+            default:
+                return null;
+        }
+    }
+
+    @Override // defpackage.aonq
+    public final int getNumber() {
+        return this.p;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.p);
+    }
+}

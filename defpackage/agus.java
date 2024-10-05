@@ -1,0 +1,198 @@
+package defpackage;
+
+import android.content.Context;
+import com.google.android.apps.youtube.embeddedplayer.service.ui.watchlaterbutton.service.c;
+import java.util.concurrent.ScheduledExecutorService;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class agus {
+    private final azrw a;
+    private final azrw b;
+    private final azrw c;
+    private final azrw d;
+    private final azrw e;
+    private final azrw f;
+    private final azrw g;
+    private final azrw h;
+    private final azrw i;
+    private final azrw j;
+    private final azrw k;
+    private final azrw l;
+    private final azrw m;
+    private final azrw n;
+    private final azrw o;
+    private final azrw p;
+    private final azrw q;
+    private final azrw r;
+    private final azrw s;
+    private final azrw t;
+    private final azrw u;
+    private final azrw v;
+    private final azrw w;
+
+    public agus(azrw azrwVar, azrw azrwVar2, azrw azrwVar3, azrw azrwVar4, azrw azrwVar5, azrw azrwVar6, azrw azrwVar7, azrw azrwVar8, azrw azrwVar9, azrw azrwVar10, azrw azrwVar11, azrw azrwVar12, azrw azrwVar13, azrw azrwVar14, azrw azrwVar15, azrw azrwVar16, azrw azrwVar17, azrw azrwVar18, azrw azrwVar19, azrw azrwVar20, azrw azrwVar21, azrw azrwVar22, azrw azrwVar23, byte[] bArr) {
+        azrwVar.getClass();
+        this.l = azrwVar;
+        azrwVar2.getClass();
+        this.b = azrwVar2;
+        this.q = azrwVar3;
+        this.t = azrwVar4;
+        this.w = azrwVar5;
+        this.d = azrwVar6;
+        this.f = azrwVar7;
+        this.a = azrwVar8;
+        this.v = azrwVar9;
+        azrwVar10.getClass();
+        this.p = azrwVar10;
+        azrwVar11.getClass();
+        this.i = azrwVar11;
+        azrwVar12.getClass();
+        this.j = azrwVar12;
+        azrwVar13.getClass();
+        this.m = azrwVar13;
+        this.u = azrwVar14;
+        azrwVar15.getClass();
+        this.o = azrwVar15;
+        azrwVar16.getClass();
+        this.e = azrwVar16;
+        this.h = azrwVar17;
+        azrwVar18.getClass();
+        this.n = azrwVar18;
+        azrwVar19.getClass();
+        this.k = azrwVar19;
+        this.c = azrwVar20;
+        this.r = azrwVar21;
+        this.s = azrwVar22;
+        this.g = azrwVar23;
+    }
+
+    public final agur a(agui aguiVar, String str, agvp agvpVar) {
+        Context context = (Context) this.a.get();
+        context.getClass();
+        ScheduledExecutorService scheduledExecutorService = (ScheduledExecutorService) this.b.get();
+        scheduledExecutorService.getClass();
+        ysy ysyVar = (ysy) this.c.get();
+        ysyVar.getClass();
+        shf shfVar = (shf) this.d.get();
+        shfVar.getClass();
+        ajkn ajknVar = (ajkn) this.e.get();
+        ajknVar.getClass();
+        ylf ylfVar = (ylf) this.f.get();
+        ylfVar.getClass();
+        agsq agsqVar = (agsq) this.g.get();
+        agsqVar.getClass();
+        azrw azrwVar = this.h;
+        agsm agsmVar = (agsm) this.i.get();
+        agsmVar.getClass();
+        agmu agmuVar = (agmu) this.j.get();
+        agmuVar.getClass();
+        aguh aguhVar = (aguh) this.k.get();
+        aguhVar.getClass();
+        aaea aaeaVar = (aaea) this.l.get();
+        aaeaVar.getClass();
+        ypa ypaVar = (ypa) this.m.get();
+        ypaVar.getClass();
+        agzr agzrVar = (agzr) this.n.get();
+        agzrVar.getClass();
+        agel agelVar = (agel) this.o.get();
+        agelVar.getClass();
+        agvf agvfVar = (agvf) this.p.get();
+        agvfVar.getClass();
+        aguk agukVar = (aguk) this.q.get();
+        agukVar.getClass();
+        agva agvaVar = (agva) this.r.get();
+        agvaVar.getClass();
+        agvc agvcVar = (agvc) this.s.get();
+        agvcVar.getClass();
+        agvi agviVar = (agvi) this.t.get();
+        agviVar.getClass();
+        agvg agvgVar = (agvg) this.u.get();
+        agvgVar.getClass();
+        afsy afsyVar = (afsy) this.v.get();
+        afsyVar.getClass();
+        azqw azqwVar = (azqw) this.w.get();
+        azqwVar.getClass();
+        ylf ylfVar2 = (ylf) this.f.get();
+        ylfVar2.getClass();
+        aguiVar.getClass();
+        agvpVar.getClass();
+        return new agur(context, scheduledExecutorService, ysyVar, shfVar, ajknVar, ylfVar, agsqVar, azrwVar, agsmVar, agmuVar, aguhVar, aaeaVar, ypaVar, agzrVar, agelVar, agvfVar, agukVar, agvaVar, agvcVar, agviVar, agvgVar, afsyVar, azqwVar, ylfVar2, aguiVar, str, agvpVar, null);
+    }
+
+    public final npr b(aasm aasmVar) {
+        Context context = (Context) this.l.get();
+        context.getClass();
+        acra acraVar = (acra) this.b.get();
+        acraVar.getClass();
+        nrp nrpVar = (nrp) this.q.get();
+        azrw azrwVar = this.t;
+        azrw azrwVar2 = this.w;
+        akht akhtVar = (akht) this.d.get();
+        ajyw ajywVar = (ajyw) this.f.get();
+        c cVar = (c) this.a.get();
+        ajyw ajywVar2 = (ajyw) this.v.get();
+        aoae aoaeVar = (aoae) this.p.get();
+        aoaeVar.getClass();
+        ypa ypaVar = (ypa) this.i.get();
+        ypaVar.getClass();
+        ((zaw) this.j.get()).getClass();
+        aahd aahdVar = (aahd) this.m.get();
+        aahdVar.getClass();
+        nrn nrnVar = (nrn) this.u.get();
+        aadw aadwVar = (aadw) this.o.get();
+        aadwVar.getClass();
+        aaea aaeaVar = (aaea) this.e.get();
+        aaeaVar.getClass();
+        nsq nsqVar = (nsq) this.h.get();
+        etv etvVar = (etv) this.n.get();
+        etvVar.getClass();
+        fln flnVar = (fln) this.k.get();
+        flnVar.getClass();
+        c cVar2 = (c) this.c.get();
+        oiy oiyVar = (oiy) this.r.get();
+        ogx ogxVar = (ogx) this.s.get();
+        ajoy ajoyVar = (ajoy) this.g.get();
+        aasmVar.getClass();
+        return new npr(context, acraVar, nrpVar, azrwVar, azrwVar2, akhtVar, ajywVar, cVar, ajywVar2, aoaeVar, ypaVar, aahdVar, nrnVar, aadwVar, aaeaVar, nsqVar, etvVar, flnVar, cVar2, oiyVar, ogxVar, ajoyVar, aasmVar, null, null, null, null, null, null);
+    }
+
+    public agus(azrw azrwVar, azrw azrwVar2, azrw azrwVar3, azrw azrwVar4, azrw azrwVar5, azrw azrwVar6, azrw azrwVar7, azrw azrwVar8, azrw azrwVar9, azrw azrwVar10, azrw azrwVar11, azrw azrwVar12, azrw azrwVar13, azrw azrwVar14, azrw azrwVar15, azrw azrwVar16, azrw azrwVar17, azrw azrwVar18, azrw azrwVar19, azrw azrwVar20, azrw azrwVar21, azrw azrwVar22, azrw azrwVar23) {
+        azrwVar.getClass();
+        this.a = azrwVar;
+        azrwVar2.getClass();
+        this.b = azrwVar2;
+        azrwVar3.getClass();
+        this.c = azrwVar3;
+        azrwVar4.getClass();
+        this.d = azrwVar4;
+        azrwVar5.getClass();
+        this.e = azrwVar5;
+        azrwVar6.getClass();
+        this.f = azrwVar6;
+        this.g = azrwVar7;
+        azrwVar8.getClass();
+        this.h = azrwVar8;
+        azrwVar9.getClass();
+        this.i = azrwVar9;
+        azrwVar10.getClass();
+        this.j = azrwVar10;
+        this.k = azrwVar11;
+        azrwVar12.getClass();
+        this.l = azrwVar12;
+        azrwVar13.getClass();
+        this.m = azrwVar13;
+        azrwVar14.getClass();
+        this.n = azrwVar14;
+        this.o = azrwVar15;
+        this.p = azrwVar16;
+        this.q = azrwVar17;
+        this.r = azrwVar18;
+        this.s = azrwVar19;
+        this.t = azrwVar20;
+        this.u = azrwVar21;
+        azrwVar22.getClass();
+        this.v = azrwVar22;
+        this.w = azrwVar23;
+    }
+}
